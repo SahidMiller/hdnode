@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "main": "./dist/hdnode.js",
-  "module": "./src/hdnode.js",
+  "module": "./src/index.js",
   "name": "@sahidmiller/hdnode",
   "publishConfig": {
     "access": "public"
