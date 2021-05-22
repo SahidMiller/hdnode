@@ -26,6 +26,7 @@
     }
   ],
   "license": "MIT",
+  "files": ["dist"],
   "main": "./dist/hdnode.js",
   "module": "./src/index.js",
   "name": "@sahidmiller/hdnode",
@@ -33,7 +34,6 @@
     "access": "public"
   },
   "repository": {
-    "directory": "packages/hdnode",
     "type": "git",
     "url": "git://github.com/sahidmiller/hdnode.git"
   },
@@ -41,9 +41,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "sideEffects": false,
-  "tarballHash": "0x96b923606a1b783fe493e2d33c1016df46733b0885a67486344ce60fd76e6c89",
-  "types": "./lib/index.d.ts",
-  "version": "6.0.0",
+  "version": "6.0.2",
   "devDependencies": {
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0"
